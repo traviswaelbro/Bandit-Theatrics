@@ -1,0 +1,106 @@
+@media only screen and (max-width: 720px) {
+	.flex-parent {
+		height: auto;
+	}
+	.sidebar {
+		position: relative;
+		transition: 0.5s ease;
+		width: 100%;
+	}
+	.navbar {
+		margin-bottom: 0.25em;
+	}
+	.navbar-inverse {
+		margin-top: 1em;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+		width: 100%;
+	}
+	.navbar-nav {
+		margin-top: 0;
+	}
+	.navbar-nav li {
+		display: inline-block;
+		width: auto;
+	}
+	.social {
+		margin: 0 auto;
+		padding: 0;
+	}
+	.fa-twitter {font-size: 20px;}
+	.fa-google-plus {font-size: 18px;}
+	.fa-facebook {font-size: 19px; margin-left: -5px;}
+	#main, footer {
+		margin-left: 0;
+		transition: 0.5s ease;
+		width: 100%;
+	}
+	.smokescreen h4 {
+		width: 85%;
+	}
+	.read-moar {
+		margin: 1em 0;
+	}
+	.read-moar .row {
+		width: 100%;
+	}
+	.more-comics-right {
+		width: 70%;
+	}
+	.members {
+		margin: 1em 0;
+		width: 100%;
+	}
+	.members-img {
+		height: 150px;
+		width: 150px;
+	}
+	.comic-title {
+		font-size: 32px;
+		width: 100%;
+	}
+	.comic {
+		width: 85%;
+	}
+	.prev-page, .comic-page, .next-page {
+		display: block;
+	}
+	.prev-page, .next-page {
+		width: 7%;
+	}
+	.btn.back, .btn.next {
+		padding: 0;
+		top: 60%;
+	}
+	.btn.back {
+		left: 0;
+	}
+	.btn.next {
+		right: 0;
+	}
+	footer {
+		padding: 5em 0;
+	}
+	footer ul {
+		padding: 0;
+		/*width: 20%;*/
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.smokescreen {
+		padding: 48px 0;
+	}
+	.extrie-extrie-read-all-about-it {
+		margin: 0;
+	}
+	.more-comics-right {
+		width: 65%;
+	}
+	footer {
+		padding: 1em 0;
+	}
+	footer ul {
+		width: 70%;
+	}
+}

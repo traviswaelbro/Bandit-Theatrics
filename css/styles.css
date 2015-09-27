@@ -1,0 +1,298 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%
+}
+h1, h2, h3, h4, h5, h6, p, li, a {
+	font-family: "Raleway", sans-serif;
+}
+h5 {
+	color: #fff;
+	font-size: 22px;
+	text-align: left;
+}
+.fa-twitter {font-size: 28px;}
+.fa-google-plus {font-size: 25px;}
+.fa-facebook {font-size: 26px;margin-left: -8px;}
+.smokescreen h5 span {
+	display: inline-block;
+	width: 20%;
+}
+.smokescreen.test {
+	padding: 6px 6px;
+}
+.flex-parent {
+	align-items: center;
+	display: inline-flex; /* or inline-flex */
+	height: 100%;
+}
+.flex-child {
+	height: 45%;
+	margin: auto;
+	width: 100px;
+}
+.row {
+	clear: both;
+	margin-left: 0;
+	margin-right: 0;
+}
+button, 
+.btn,
+.btn-lg {
+	border: none;
+	border-radius: 0;
+}
+.sidebar {
+	background-color: #31d843;
+	position: fixed;
+	transition: 0.5s ease;
+	width: 22%;
+}
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	margin: 0 auto;
+	transition: 0.5s ease;
+	width: 50%;
+}
+.navbar-inverse .navbar-nav > li:hover > a,
+.navbar-inverse .navbar-brand:hover {
+	color: #333;
+	transition: 0.5s ease;
+}
+.navbar {
+	text-align: center;
+	transition: 0.5s ease;
+}
+.navbar-inverse {
+	background-color: inherit;
+	bottom: 0px; top: 0px;
+	margin: auto;                /* here's the magic. */
+	transition: 0.5s ease;
+	width: 100%;
+}
+.navbar-brand,
+.navbar-nav {
+	float: none;
+	margin: 0 auto;
+	transition: 0.5s ease;
+}
+.navbar-logo {
+	width: 250px;
+}
+.navbar-nav {
+	margin-top: 2em;
+}
+.navbar-nav li {
+	width: 100%;
+}
+.social {
+	margin-top: 1em;
+	padding: 0;
+}
+.social ul {
+	list-style: none;
+}
+.social li {
+	display: inline-block;
+}
+.social li a i {
+	color: #fff;
+	transition: 0.5s ease;
+}
+.social li:hover a i {
+	color: #333;
+	transition: 0.5s ease;
+}
+#main,
+footer {
+	margin-left: 22%;
+	transition: 0.5s ease;
+	width: 78%;	
+}
+.comic-main {
+	margin-bottom: 2em;
+}
+.smokescreen {
+	background-color: #7f7f7f;
+	padding: 48px 72px;
+	text-align: center;
+	transition: 0.5s ease;
+}
+.smokescreen h2 {
+	color: #fff;
+	margin-bottom: 0;
+	width: 100%;
+}
+.smokescreen h4 {
+	color: #fff;
+	margin: 0 auto;
+	padding: 2em 0;
+	text-align: justify;
+	width: 75%;
+}
+.read-moar {
+	margin: 1em;
+	text-align: center;
+}
+.read-moar .row {
+	margin: 0 auto;
+	width: 80%;
+}
+.extrie-extrie-read-all-about-it {
+	margin: 1em;
+	margin-top: 0;
+	vertical-align: middle;
+}
+.more-comics-img {
+	background-color: #666;
+	display: inline-block;
+	float: left;
+	height: 200px;
+	margin: 1em;
+	vertical-align: bottom;
+	width: 25%;
+}
+.more-comics-right {
+	display: inline-block;
+	vertical-align: middle;
+	width: 71%;
+}
+.team {
+	background-color: #A1E8CC;
+	padding: 5em 0;
+}
+.team h2 {
+	margin-top: 0;
+}
+.members {
+	display: inline-block;
+	margin: 1%;
+}
+.members-img, .members .image {
+	height: 150px;
+	margin: 0 auto;
+	transition: 1s ease;
+	width: 150px;
+}
+.members-img:hover img {
+	opacity: 0;
+	transition: 1s ease;
+}
+.members.travis .members-img {
+	background-image: url("../img/travissrc-crop.png");
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+	transition: 0.5s ease;
+}
+.members.adam .members-img {
+	background-image: url("../img/adamsource-crop.jpg");
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+	transition: 0.5s ease;
+}
+.comic-title {
+	display: inline-block;
+	font-family: "Bangers";
+	font-size: 44px;
+	margin: 0 auto;
+	margin-bottom: 4px;
+	margin-top: 0.1em;
+	width: 100%;
+}
+.comic {
+	/*background-color: #333;
+	height: 90vh;*/
+	display: inline-block;
+	margin: 0 auto;
+	width: 50%;
+}
+.prev-page, .comic-page, .next-page {
+	display: inline-block;
+}
+.comic-page {
+	text-align: center;
+	width: 100%;
+}
+.comic-page .contain-me {
+	max-width: 100%;
+}
+.prev-page, .next-page {
+	height: 90vh;
+	margin-top: 0 auto;
+}
+.prev-page {
+	float: left;
+	text-align: right;
+	width: 25%;
+}
+.next-page {
+	float: right;
+	text-align: left;
+	width: 25%;
+}
+.btn.back, .btn.next {
+	background-color: transparent;
+	position: absolute;
+	padding: 12px 4px;
+	top: 46%;
+}
+button.btn.back, button.btn.next:hover {
+	background-color: transparent;
+}
+i.fa-angle-left, i.fa-angle-right {
+	font-size: 36px;
+}
+button a:hover i.fa-angle-left:hover, button a:hover i.fa-angle-right {
+	color: #b00b13;
+}
+.btn.back {
+	left: 38%;
+}
+/*.btn.next {
+	position: fixed;
+	right: 12%;
+	top: 45%;
+}*/
+button, .btn, .btn-md .btn-lg {
+	transition: 0.5s ease;
+}
+button:hover, .btn:hover, .btn-md:hover, .btn-lg:hover {
+	background-color: #39c;
+	transition: 0.5s ease;
+}
+button:hover a, .btn:hover a, .btn-md:hover a, .btn-lg:hover a {
+	color: #fff;
+	transition: 0.5s ease;
+}
+button a, .btn a, .btn-mg a, .btn-lg a {
+	color: #333;
+	transition: 0.5s ease;
+}
+button a:hover, .btn a:hover, .btn-md a:hover, .btn-lg a:hover {
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+.role {
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+}
+.adam .members-img	{background-color: #00f;}
+.caleb .members-img	{background-color: #ff0;}
+.kevin .members-img	{background-color: #0f0;}
+
+footer {
+	background-color: #39c;
+	padding: 5em 1em;
+}
+footer ul {
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+}
+
+footer ul a {
+	color: #fff;
+}
